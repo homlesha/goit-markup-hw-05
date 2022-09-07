@@ -422,6 +422,8 @@ section.about {
 }
 .team-svg:hover,
 .team-svg:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: var(--accent-color);
 }
 
@@ -445,14 +447,14 @@ section.about {
 
 .clients-svg:hover{
   border: 1px solid var(--accent-color);
-  transition-duration: 250ms;
+  transition-duration: 350ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-svg:hover .clients-icon,
 .clients-svg:focus .clients-icon {
   fill: var(--accent-color);
-  transition-duration: 250ms;
+  transition-duration: 350ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -550,6 +552,8 @@ section.about {
 .link-svg:hover,
 .link-svg:focus {
   background-color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
